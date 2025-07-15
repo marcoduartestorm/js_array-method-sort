@@ -15,6 +15,8 @@ function applyCustomSort() {
           }
         }
       }
+    } else {
+      return this;
     }
   };
 }
